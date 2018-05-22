@@ -6,4 +6,4 @@ The file formatting is a little bad, i know, but keep in mind that when i tell u
 which is quite annoying.
 
 
-Note that re-compilation, either manually or by playing in the editor, will break any instances within the level. make sure to delete and re-place these instances back into the level after making any changes.
+Note that re-complilation after changing any instance of the enemy will break break the set color scheme for that instance. make sure to, after making any changes, replace the character into the level.
