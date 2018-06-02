@@ -47,12 +47,3 @@ void AOurHero::CheckDead() //simply checks whether the player/enemy's health is 
 		IsDead = false;
 	}
 }
-
-void AOurHero::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
-{
-	IsDead = false;
-	Health = 100;
-
-	Super::PostEditChangeProperty(PropertyChangedEvent);
-	CheckDead();
-}

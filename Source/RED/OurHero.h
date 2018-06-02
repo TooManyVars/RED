@@ -42,11 +42,4 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Base Character")
 	virtual void CheckDead();
 
-	//add a function that makes property changes easier in the editor.
-	//postEditChangeProperty is called whenever externeal changes(ie in the editor) are made to the components of the class
-#if WITH_EDITOR
-	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
-#endif
-
-
 };
